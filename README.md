@@ -10,8 +10,6 @@ Haoran Wang, Guoxi Huang, Fan Zhang, David Bull, and Nantheera Anantrasirichai
 **CVPR 2026**, pages 11716-11725
 
 [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Prune_Wisely_Reconstruct_Sharply_Compact_3D_Gaussian_Splatting_via_Adaptive_CVPR_2026_paper.html)]
-[[PDF](https://openaccess.thecvf.com/content/CVPR2026/papers/Wang_Prune_Wisely_Reconstruct_Sharply_Compact_3D_Gaussian_Splatting_via_Adaptive_CVPR_2026_paper.pdf)]
-[[Supplementary](https://openaccess.thecvf.com/content/CVPR2026/supplemental/Wang_Prune_Wisely_Reconstruct_CVPR_2026_supplemental.pdf)]
 [[arXiv](https://arxiv.org/abs/2602.24136)]
 
 Compact 3D Gaussian Splatting training with adaptive pruning and
