@@ -39,16 +39,6 @@ If the CUDA rasterizer needs to be rebuilt after a source change:
 pip install submodules/dog-gaussian-rasterization --force-reinstall --no-deps
 ```
 
-## Dataset
-
-Use a COLMAP scene with this structure:
-
-```text
-scene/
-  images/
-  sparse/0/
-```
-
 ## Training
 
 ```bash
@@ -61,16 +51,10 @@ Specify an output directory when required:
 python train_prune_DoG.py -s /path/to/scene -m output/scene --eval
 ```
 
-Training uses standard Gaussian rendering before the pruning stage ends and
-automatically switches to DoG rendering afterward. The default run saves the
-model at iteration 40,000.
-
 ## Rendering
 
-Render the test cameras and save only rendered images and ground truth:
-
 ```bash
-python render_DoG.py -m output/scene --iteration 40000 --skip_train
+python render_DoG.py -m output/scene
 ```
 
 ## Metrics
