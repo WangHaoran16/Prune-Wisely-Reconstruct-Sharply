@@ -2,22 +2,13 @@
 
 Official implementation of the CVPR 2026 paper:
 
-**Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via
-Adaptive Pruning and Difference-of-Gaussian Primitives**
-
-Haoran Wang, Guoxi Huang, Fan Zhang, David Bull, and Nantheera Anantrasirichai
-
-**CVPR 2026**, pages 11716-11725
+**CVPR 2026**
 
 [[Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Prune_Wisely_Reconstruct_Sharply_Compact_3D_Gaussian_Splatting_via_Adaptive_CVPR_2026_paper.html)]
 [[arXiv](https://arxiv.org/abs/2602.24136)]
 
 Compact 3D Gaussian Splatting training with adaptive pruning and
 Difference-of-Gaussian (DoG) rendering.
-
-The repository contains one training entry point, `train_prune_DoG.py`, and a
-combined rasterization package with separate CUDA kernels for standard and DoG
-rendering.
 
 ## Requirements
 
