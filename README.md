@@ -73,20 +73,11 @@ Render the test cameras and save only rendered images and ground truth:
 python render_DoG.py -m output/scene --iteration 40000 --skip_train
 ```
 
-Results are written to:
-
-```text
-output/scene/test/ours_40000/renders/
-output/scene/test/ours_40000/gt/
-```
-
 ## Metrics
 
 ```bash
 python metrics.py -m output/scene
 ```
-
-This reports SSIM, PSNR, and LPIPS.
 
 ## Full Evaluation
 
@@ -96,9 +87,6 @@ python full_eval.py \
   -tat /path/to/tanks_and_temples \
   -db /path/to/deep_blending
 ```
-
-Use `--skip_training`, `--skip_rendering`, or `--skip_metrics` to run only part
-of the evaluation.
 
 ## Bibtex
 
