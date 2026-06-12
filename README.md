@@ -45,12 +45,6 @@ pip install submodules/dog-gaussian-rasterization --force-reinstall --no-deps
 python train_prune_DoG.py -s /path/to/scene --eval
 ```
 
-Specify an output directory when required:
-
-```bash
-python train_prune_DoG.py -s /path/to/scene -m output/scene --eval
-```
-
 ## Rendering
 
 ```bash
